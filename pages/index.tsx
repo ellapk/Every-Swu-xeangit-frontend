@@ -97,10 +97,7 @@ export default function Blog() {
           </Grid>
         </main>
       </Container>
-      <Footer
-        title="Footer"
-        description="Something here to give the footer a purpose!"
-      />
+      <Footer description="이용약관 개인정보처리방침 커뮤니티이용규칙 공지사항 문의하기 © 에브리타임" />
     </ThemeProvider>
   );
 }
