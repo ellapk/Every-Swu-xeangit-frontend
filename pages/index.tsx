@@ -11,16 +11,12 @@ import Sidebar from "./Sidebar";
 import Footer from "./Footer";
 
 const sections = [
-  { title: "Technology", url: "#" },
-  { title: "Design", url: "#" },
-  { title: "Culture", url: "#" },
-  { title: "Business", url: "#" },
-  { title: "Politics", url: "#" },
-  { title: "Opinion", url: "#" },
-  { title: "Science", url: "#" },
-  { title: "Health", url: "#" },
-  { title: "Style", url: "#" },
-  { title: "Travel", url: "#" },
+  { title: "게시판", url: "#" },
+  { title: "시간표", url: "#" },
+  { title: "강의평가", url: "#" },
+  { title: "학점계산기", url: "#" },
+  { title: "친구", url: "#" },
+  { title: "책방", url: "#" },
 ];
 
 const mainFeaturedPost = {
@@ -79,7 +75,7 @@ export default function Blog() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header title="Blog" sections={sections} />
+        <Header title="Every-Swu" sections={sections} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={4}>
