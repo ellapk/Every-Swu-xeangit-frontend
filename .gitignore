@@ -31,3 +31,6 @@ yarn-error.log*
 .next/server/webpack-runtime.js
 .next/static/chunks/webpack.js
 .next/static/webpack/webpack.5eadbb1fcb711cbe.hot-update.js
+.next/cache/webpack/client-development/index.pack
+.next/cache/webpack/client-development/index.pack.old
+.next/cache/webpack/client-development/2.pack
