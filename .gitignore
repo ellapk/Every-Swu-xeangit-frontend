@@ -25,3 +25,9 @@ yarn-error.log*
 .next/cache/webpack/client-development/
 .next/cache/webpack/server-development/
 .next/static/webpack/
+.next/static/webpack/pages/index.21660b8ade285d42.hot-update.js
+.next/trace
+.next/cache/webpack/client-development/0.pack
+.next/server/webpack-runtime.js
+.next/static/chunks/webpack.js
+.next/static/webpack/webpack.5eadbb1fcb711cbe.hot-update.js
