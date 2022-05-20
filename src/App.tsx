@@ -1,6 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+// This gets called on every request
+export async function getServerSideProps() {
+  // Fetch data from external API
+  const res = await fetch(`http://localhost:3306/api/v1/posts`);
+  const data = await res.json();
+
+  // Pass data to the page via props
+  return { props: { data } };
+}
 
 function App() {
   return (
